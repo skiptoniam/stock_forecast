@@ -10,4 +10,3 @@ plot(cba.fcast)
 
 cba.fcast2 <-naive(CBA.AX[,2], h=100)
 plot(cba.fcast2)
-
