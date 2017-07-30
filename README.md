@@ -1,2 +1,2 @@
 # time_series_forecast
-Database management and modelling of times series data (mainly stocks).
+Database management and modelling of time series data (mainly stocks).
