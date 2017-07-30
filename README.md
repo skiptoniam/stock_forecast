@@ -1,2 +1,2 @@
 # stock_forecast
-Data based management and modelling of stocks.
+Database management and modelling of times series data (mainly stocks).
