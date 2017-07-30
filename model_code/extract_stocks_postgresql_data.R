@@ -7,4 +7,5 @@ chartSeries(CBA.AX,type = 'bars', theme = "black")
 candleChart(CBA.AX,subset='2016-12::2017', theme = chartTheme("white")) 
 
 get_symbols_postgreSQL('MSCI',user='woo457',password='pass', dbname='stocksdb')
-chartSeries(MdSCI, , theme='white.mono',bar.type='hlc')
+chartSeries(MSCI,subset='last 3 months')
+addBBands(n = 19, sd = 2, ma = "SMA", draw = 'bands', on = -1)
