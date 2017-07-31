@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # directory variables
-QUANTMOD_DIR="/home/woo457/Dropbox/stock_forecast"
+QUANTMOD_DIR="/home/woo457/Dropbox/time_series_forecast"
 LOADING_DIR="${QUANTMOD_DIR}/loading"
 
 # symbol names for desired stocks
@@ -16,8 +16,8 @@ HOST="localhost" #host name
 USER="woo457" #user name
 
 # either type password here..
-export PGPASSWORD=Demons31
+#export PGPASSWORD=pass
 
 # ..or write password in hidden file, e.g.
-# PASS_FILE="${FINANCE_DIR}/.not_secret/passfile" 
-# export PGPASSWORD=$PASS_FILE
+PASS_FILE="${QUANTMOD_DIR}/.not_secret/passfile" 
+export PGPASSWORD=$PASS_FILE
